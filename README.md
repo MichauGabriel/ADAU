@@ -19,9 +19,11 @@ Please cite the corresponding paper:
 Version: 1.0
 --------
 
-@author:  Dr. Gabriel Michau,
---------  Chair of Intelligent Maintenance Systems
-          ETH Zürich
+@author:  
+--------  
+Dr. Gabriel Michau,
+Chair of Intelligent Maintenance Systems
+ETH Zürich
           
 Created on 03.03.2022
 

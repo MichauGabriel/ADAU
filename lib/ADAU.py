@@ -102,7 +102,7 @@ def MDS_loss(X, XT, etaFixed=None):
         eta = (tf.reduce_sum(tf.multiply(dX,dXT)))/\
               (tf.reduce_sum(tf.square(dXT))+1e-8)
     else:
-        eta    = tf.constant(eta)
+        eta    = tf.constant(etaFixed)
     return tf.reduce_mean(tf.square(dX-eta*dXT)), eta
 
 
